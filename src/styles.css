@@ -150,3 +150,13 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a{
+  text-decoration: none;
+  color: white;  
+}
