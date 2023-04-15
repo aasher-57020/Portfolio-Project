@@ -1,7 +1,7 @@
 const hamburgerButton = document.getElementById('hamburger')
-const navList = document.getElementById('navList')
+const navList = document.getElementById('nav-list')
 
-function toggleButton(){
+function toggleButton() {
     navList.classList.toggle('show')
 }
 

@@ -36,10 +36,6 @@ ul {
     font-size: 30px;
 }
 
-ul.show {
-    display: block;
-}
-
 li {
     text-decoration: none;
 }
@@ -185,10 +181,28 @@ a{
         border: 0;
         background-color: transparent;
         color: white;
-        font-size: 30px;
+        font-size: 70px;
+        margin: 20px;
+        align-self: flex-end;
     }
 
     ul {
-      display: none;  
+        display: block;
+        margin: 0ppx;
+    }
+
+    ul.show {
+        display: none;
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .logo {
+        display: none;
     }
 }
