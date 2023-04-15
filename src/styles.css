@@ -76,7 +76,7 @@ p {
     width: 200px;
     height: 40px;
     border-radius: 30px;
-    background-color: darkorange;
+    background-color: rgb(233, 65, 65);
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -85,12 +85,30 @@ p {
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: #f64206;
 }
 
 .button:active {
-    background-color: #F5E050;
+    background-color: #e712b8;
     color: #808080;
+}
+
+@media only screen and (max-width: 1000px){
+    .button {
+        width: 250px;
+        height: 60px;
+        border-radius: 400px;
+        font-size: 40px;
+        margin-top: 10px;
+    
+    }
+    h1 {
+        font-size: 120px;
+     }
+     p {
+        font-size: 37.5px;
+        margin: 0px;
+     }
 }
 
 .socials {
@@ -187,12 +205,13 @@ a{
     }
 
     ul {
-        display: block;
+        display: none;
         margin: 0ppx;
     }
 
     ul.show {
-        display: none;
+        display: block;
+        font-size: 45px;
         
     }
 
