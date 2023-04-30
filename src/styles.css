@@ -28,6 +28,12 @@ nav {
 
 }
 
+.connect{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     display: flex;
     list-style-type: none;
