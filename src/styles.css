@@ -100,6 +100,9 @@ p {
 }
 
 @media only screen and (max-width: 1000px){
+    #about-me {
+        flex-direction: column;
+    }
     .button {
         width: 250px;
         height: 60px;
