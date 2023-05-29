@@ -22,6 +22,10 @@ footer {
     text-align: center;
 }
 
+.menu {
+    margin: auto;
+    
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -38,10 +42,17 @@ ul {
     display: flex;
     list-style-type: none;
     width: 500px;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 30px;
 }
 
+.mail{
+padding-right: 30px;
+}
+
+.nav-spacing{
+    width: 200px;
+}
 li {
     text-decoration: none;
 }
@@ -103,6 +114,14 @@ p {
 
     #about-me{
         flex-direction: column-reverse;
+    }
+
+    #about-me h1 {
+        width: 100vw;
+    }
+
+    .nav-spacing{
+        width: fit-content;
     }
 
     .button {
@@ -216,7 +235,7 @@ a{
     }
 
     ul {
-        display: none;
+        /*display: none;*/
         margin: 0ppx;
     }
 
