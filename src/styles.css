@@ -235,8 +235,8 @@ a{
     }
 
     ul {
-        /*display: none;*/
-        margin: 0ppx;
+        display: none;
+        margin: 0px;
     }
 
     ul.show {
